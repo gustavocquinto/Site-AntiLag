@@ -15,15 +15,14 @@
     <div class="menu">
       <img src="antilaglogov4.png">
       <a onclick="irInicio()" id="inicioa" href="index.html">INÍCIO</a>
-      <a onclick="irSobre()" href="#sobrea" id="sobrea">SOBRE</a>
+      <a onclick="irSobre()" id="sobrea">SOBRE</a>
       <a onclick="irComprar() "href="#comprara" id="comprara">COMPRAR</a>
-      <a onclick= "irFaq()" href="#faqa" id="faqa">FAQ</a>
       <a onclick= "irContato()" href="#contatoa" id="contatoa">CONTATO</a>
     </div>
     <div id="bgcolor">
       <div id="centro">
         <img id="logocentro" src="antilaglogov4.png">
-        <a href="#">VER SERVIÇOS</a>
+        <a onclick="irComprar()">VER SERVIÇOS</a>
       </div>
       <div class="background">
         <img id="backgroundd"src="fortnite background.png">
@@ -92,7 +91,6 @@
       </section>
       <section id="pagamento">
         <div class="pagamento">
-          <img id="imgpag" src="Fortnite_friend-invite_heroesV2-523x802-0469d4acb5554344bd623dd4e0c5820368a06b09.png">
           <h1> PAGAMENTO </h1>
           <div id="serviço">
             <span> Serviço selecionado:ﾠ</span>
@@ -100,35 +98,46 @@
             <span id="attdrivers"> Atualização de drivers, correção de erros.</span>
             <span id="ultraboost"> ULTRA FPS BOOST. </span>
           </div>
-          <div>
+          <div id="span">
             <span> Valor da compra:ﾠ</span>
             <span id="fpsvalor"> R$ 24,99 </span>
             <span id="attvalor"> R$ 19,99 </span>
             <span id="ultravalor"> R$ 49,99 </span>
           </div>
           <br>
-          <div>
+          <div class="pag">
             <input id="email" type="email" placeholder="Seu email">
           </div>
-          <div>
+          <div class="pag">
             <button id="btpagamento" onclick="emailEnviado()"> Gerar Pagamento </button>
           </div>
-          </div>
+        </div>
+        <div id="img">
+          <img id="imgpag" src="Fortnite_friend-invite_heroesV2-523x802-0469d4acb5554344bd623dd4e0c5820368a06b09.png">
+
+
+        </div>
       </section>
       <section id="contatosec">
-        <div id="formulario">
-          <h2>Precisando de ajuda?</h2>
-          <h3>NÓS ENVIE UMA MENSAGEM!</h3>
-          <p>Envie uma mensagem utilizando o formulário abaixo.</p>
-          <input placeholder="Seu Nome" type="text">
-          <input placeholder="Seu email" type="text">
-          <input placeholder="Assunto" type="text">
-          <input placeholder="Mensagem" type="text">
+        <div id="mover">
+          <div id="formulario">
+            <h2>Precisando de ajuda?</h2>
+            <h3>NÓS ENVIE UMA MENSAGEM!</h3>
+            <p>Envie uma mensagem utilizando o formulário abaixo.</p>
+            <input id="nomee"placeholder="Seu Nome" type="text">
+            <input id="emaill"placeholder="Seu Email" type="text">
+            <input id="assuntoo"placeholder="Assunto" type="text">
+            <input id="mensagemm"placeholder="Mensagem" type="text">
+            <button id="envmsg" onclick="enviarEmail()">Enviar Mensagem</button>
+          </div>
         </div>
       </section>
       <div id="final">
         <h3> Fortnite é uma marca registrada da Epic Games, Inc. Nós não somos de nenhuma forma afiliados, associados ou endossados pela Epic Games, Inc. Todos os direitos autoriais, marcas, imagens e marcas de serviço pertencem a seus respectivos proprietários. </h3>
-        <span>Desenvolvido por </span> <a href="">Gustavo Quinto</a>
+        <br>
+        <br>
+        <span>Primeiro site desenvolvido por </span> 
+        <span>Gustavo Quinto</span>
 
 
       </div>

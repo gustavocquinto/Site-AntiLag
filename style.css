@@ -165,18 +165,13 @@ body {
 
 }
 
-#x {
-  background-color: white;
-  height: 2px;
-  box-shadow: 0px 2px 3px black;
 
-}
 
 .cartoes {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-bottom: 150px;
+  padding-bottom: 10px;
 }
 
 .cartao:hover {
@@ -295,6 +290,7 @@ body {
 
 }
 
+
 #fpsboost, #ultraboost, #attdrivers, #fpsvalor, #attvalor, #ultravalor {
   display: none;
   color: #EA4A60;
@@ -326,22 +322,34 @@ body {
   font-size: 17px;
 } 
 
+#img {
+  position: relative;
+  top: 0px;
+  left: 80px;
+  -webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.6));
+  filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+
+#span {
+  width:px;
+
+
+
+}
+
 #imgpag {
-  position: absolute;
-  width: 11.5%;
-  top: 2650px;
-  right: 430px;
+  position: relative;
+  width: 50%;
+  top: 0px;
+  right: -100px;
   float: left;
   opacity: 50%;
-  
-  
-
 }
 
 #contatosec{
   background-color: #17202a;
   width: 100%;
-  height: 420px;
+  height: 500px;
   color: white;
   margin-top: 200px;
   text-shadow: 2px 3px 10px black;
@@ -353,16 +361,18 @@ body {
   border: none;
   border-radius: 3px;
   width: 500px;
-  height: 40px;
+  height: 30px;
 }
 
+#mover {
+  display: flex;
+  justify-content: center;
 
 
-#formulario {
-  position: relative;
-  left: 37%;
+
 
 }
+
 
 #formulario h2 {
   font-size: 50px;
@@ -375,9 +385,11 @@ body {
 }
 
 #final{
-  background-color:#161e27;
+  background-color:#1a222a;
   margin-top:0px;
   color:white;
+  height: 200px;
+  padding: 20px;
 
 }
 
@@ -392,6 +404,31 @@ body {
   font-size: 12px;
   color: white;
   margin-top: 0px;
+  padding-top: 70px;
+}
+
+#final span {
+  display: flex;
+  justify-content: center;
+}
+
+#final span:nth-child(4) {
+  margin-top: 16px;
+}
+
+#final span:nth-child(5) {
+  color:pink;
+
+}
+
+#envmsg {
+  position: relative;
+  left: 175px;
+  border:none;
+  width: 150px;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 20px;
 }
 
 
@@ -399,6 +436,7 @@ body {
 
 @media only screen and (max-width: 1550px) {
   
+
 .menu > img {
   height: 70px;
   border-radius: 35%;
@@ -451,6 +489,11 @@ body {
 
 }
 
+#imgpag {
+  width: 40%;
+  top: 80px;
+  right: -1px;
+}
 
 
 }
@@ -486,6 +529,10 @@ body {
 #centro > a {
   font-size: 11px;
   padding: 4px;
+}
+
+#imgpag {
+  display: none;
 }
 
 
@@ -533,10 +580,37 @@ body {
   font-size: 16.5px;
 }
 
+#contatosec input{
+  display: block;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 3px;
+  width: 350px;
+  height: 30px;
+}
+
+#envmsg {
+  position: relative;
+  left: 30%;
+}
+
+#formulario h2 {
+  font-size: 35px;
+  padding: 5px;
+
 
 }
 
-@media only screen and (max-width: 450px) {
+.cartaoGrande {
+  margin-top: 65px;;
+
+}
+
+
+
+}
+
+@media only screen and (max-width: 500px) {
 
   #centro {
   top: 15%;
@@ -547,8 +621,7 @@ body {
 
 #backgroundd {
 
-  width: 425px;
-  right: 25px;
+  visibility: hidden;
 
 
 }
@@ -571,15 +644,20 @@ body {
 .cartoes1  h1 {
   font-size: 35px;
   position: relative;
-  left: 14px;
+  padding: 8px;
   white-space: nowrap;
 }
 
 .cartoes1  h5 {
   
   position: relative;
-  left: 12px;
+  padding: 8px;
 }
+
+
+
+
+
 
 
 

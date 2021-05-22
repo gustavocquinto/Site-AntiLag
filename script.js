@@ -6,7 +6,7 @@ const inicio = getElementById('inicioa');
 function irInicio (){
   event.preventDefault();
   window.scroll ({
-    top: 0,
+    top: 'inicio',
     behavior: "smooth"
   });
 
@@ -64,7 +64,7 @@ const contato = getElementById('contatoa');
 function irContato (){
   event.preventDefault();
   window.scroll ({
-    top: 0,
+    top: 5000,
     behavior: "smooth"
   });
 
@@ -109,5 +109,18 @@ function emailEnviado() {
   else
    alert('Parece que você não digitou nenhum email, tente novamente.');
 
+
+}
+
+function enviarEmail(){
+  const nome = document.getElementById('nomee');
+  const email = document.getElementById('emaill');
+  const assunto = document.getElementById('assuntoo');
+  const mensagem = document.getElementById('mensagemm');
+
+  if (nome.value != '' &&  email.value != '' && assunto.value != '' && mensagem.value != '')
+    alert('Obrigado ' + nome.value + ' recebemos seu email sobre ' + assunto.value + '. Em breve lhe responderemos.');
+  else
+    alert('Parece você não inseriu todos os dados corretamente');
 
 }
