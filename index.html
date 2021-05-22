@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Anti Lag</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;600;700&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+    <div class="menu">
+      <img src="antilaglogov4.png">
+      <a onclick="irInicio()" id="inicioa" href="index.html">INÍCIO</a>
+      <a onclick="irSobre()" href="#sobrea" id="sobrea">SOBRE</a>
+      <a onclick="irComprar() "href="#comprara" id="comprara">COMPRAR</a>
+      <a onclick= "irFaq()" href="#faqa" id="faqa">FAQ</a>
+      <a onclick= "irContato()" href="#contatoa" id="contatoa">CONTATO</a>
+    </div>
+    <div id="bgcolor">
+      <div id="centro">
+        <img id="logocentro" src="antilaglogov4.png">
+        <a href="#">VER SERVIÇOS</a>
+      </div>
+      <div class="background">
+        <img id="backgroundd"src="fortnite background.png">
+      </div>
+    </div>
+    <div class="cartoes1">
+      <h1 id="sobre">POR QUÊ A ANTI LAG?</h1>
+      <h5> A Anti Lag permite que você adquira seu fps boost ou serviços para sua máquina num preço acessível. <br>Prezamos pela transparência e estaremos sempre a seu dispor para ajudar a resolver qualquer problema ou dúvida que possa ocorrer. </h5>
+    </div>
+    <section class="cartoes">
+      <div class="cartao">
+        <img src="email5.png">
+        <h3> APLICAÇÃO IMEDIATA </h3>
+          <div id="x"></div>
+        <h4> Quando você compra com a Anti Lag, você recebe o boost em poucos minutos. Nossa aplicação é realizada via team viewer, é super simples, rápido e seguro. </h4>
+
+      </div> 
+      <div class="cartao">
+        <img src="locker.png">
+        <h3> TRANSAÇÃO SEGURA</h3>
+          <div id="x"></div>
+        <h4> Todo pagamento é processado externamente ao nosso site. Ou seja, nós não temos acesso a seus dados em nenhum momento da compra, fazendo com que seja tudo extremamente seguro pra você! </h4>
+
+      </div> 
+      <div class="cartao">
+        <img src="infinite.png">
+        <h3> GARANTIA DE ENTREGA </h3>
+          <div id="x"></div>
+        <h4> Todos os serviços comprados na Anti Lag acompanham a nossa garantia de entrega e conclusão do serviço. Se você encontrar algum problema, é só entrar em contato, caso prefira reembolsamos sem problemas e dores de cabeça.</h4>
+
+      </div> 
+      <div class="cartao">
+        <img src="call.png">
+        <h3> ATENDIMENTO ESPECIAL </h3>
+          <div id="x"></div>
+        <h4> Trabalhamos duro para oferecer o melhor atendimento possível. Em caso de qualquer dúvida ou problema, entre em contato e receberá uma resposta rapidamente. </h4>
+
+      </div> 
+    
+    </section>
+    <div class="cartoes1">
+      <h1 style="padding-bottom: 50px;">ESCOLHA SEU SERVIÇO</h1>
+    </div>
+    <section id="comprar" class="cartoesCompra">
+      <div class="cartaoGrande">
+        <img src="fortnite.png">
+        <h3> FPS BOOST </h3>
+        <div id="x"></div>
+        <h4> Um serviço oferecido para aumentar seu FPS bruscamente, e também para acabar com os travamentos bem quando você edita ou, mais precisa acertar aquele tiro em seu inimigo. E ainda como bonûs iremos otimizar  seu windows inicialmente para que ele rode fluidamente.</h4>
+        <button onclick="selecionar('fpsboost')">Selecionar</button>
+      </div>
+      <div class="cartaoGrande">
+        <img src="fortnite2.png">
+        <h3 id="h3"> Atualização de drivers, correção de erros. </h3>
+        <div id="x"></div>
+        <h4> Está com o computador travando, o jogo está lento ou quer obter benefícios de um Windows leve e otimizado, este é o serviço indicado. </h4>
+        <button onclick="selecionar('attdrivers')">Selecionar</button>
+      </div>
+      <div class="cartaoGrande">
+        <img src="fortnite3.png">
+        <h3 style="color: red;padding: 0px;margin: 0px;"> ULTRA </h3> <h3 style="margin:9px;"> FPS BOOST </h3>
+        <div id="x"></div>
+        <h4> Além de aumentar bruscamente o seus FPS, remover todo o inputlag possivel e limpar sua memória ram, íremos fazer com que sua máquina se dedique 100% ao seu jogo enquanto aberto. Assim os ganhos de FPS chegam de 30 a 100fps.</h4>
+        <button onclick="selecionar('ultraboost')">Selecionar</button>
+      </div>
+      </section>
+      <section id="pagamento">
+        <div class="pagamento">
+          <h1> PAGAMENTO </h1>
+          <div id="serviço">
+            <span> Serviço selecionado:ﾠ</span>
+            <span id="fpsboost"> FPS BOOST. </span>
+            <span id="attdrivers"> Atualização de drivers, correção de erros.</span>
+            <span id="ultraboost"> ULTRA FPS BOOST. </span>
+          </div>
+          <div>
+            <span> Valor da compra:ﾠ</span>
+            <span id="fpsvalor"> R$ 24,99 </span>
+            <span id="attvalor"> R$ 19,99 </span>
+            <span id="ultravalor"> R$ 49,99 </span>
+          </div>
+          <br>
+          <div>
+            <input id="email" type="email" placeholder="Seu email">
+          </div>
+          <div>
+            <button id="btpagamento" onclick="emailEnviado()"> Gerar Pagamento </button>
+          </div>
+          <div id="apagar"> </div>
+          </div>
+
+
+
+
+
+
+
+      </section>
+    
+
+
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
