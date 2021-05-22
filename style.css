@@ -275,6 +275,7 @@ body {
 #pagamento {
   display: flex;
   justify-content: center;
+  margin-top: 100px;
 }
 
 
@@ -308,11 +309,7 @@ body {
   font-size: 16.5px;
 }
 
-#apagar {
-  background-color: #17202a;
-  width: 1920px;
-  height: 1080px;
-}
+
 
 #btpagamento {
   margin-top: 30px;
@@ -329,6 +326,74 @@ body {
 #serviço span {
   font-size: 17px;
 } 
+
+#imgpag {
+  position: absolute;
+  width: 11.5%;
+  top: 2650px;
+  right: 430px;
+  float: left;
+  opacity: 50%;
+  
+  
+
+}
+
+#contatosec{
+  background-color: #17202a;
+  width: 100%;
+  height: 420px;
+  color: white;
+  margin-top: 200px;
+  text-shadow: 2px 3px 10px black;
+}
+
+#contatosec input{
+  display: block;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 3px;
+  width: 500px;
+  height: 40px;
+}
+
+
+
+#formulario {
+  position: relative;
+  left: 37%;
+
+}
+
+#formulario h2 {
+  font-size: 50px;
+
+
+}
+
+#formulario input:nth-child(7){
+  height: 70px;
+}
+
+#final{
+  background-color:#161e27;
+  margin-top:0px;
+  color:white;
+
+}
+
+#final p {
+  text-decoration: none;
+}
+
+#final > h3 {
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  font-size: 12px;
+  color: white;
+  margin-top: 0px;
+}
 
 
 
@@ -460,6 +525,13 @@ body {
   left: 36.6%;
   transition: all 0.5s ease-in-out;
 
+}
+.pagamento input {
+  border-style: double;
+  border-radius: 5px;
+  width: 250px;
+  height: 40px;
+  font-size: 16.5px;
 }
 
 
