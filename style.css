@@ -4,14 +4,10 @@
 
 * h1, h2, h3, h4, h5, button, span, p, div {
   user-select: none;
-
-
 }
 
 * img {
   pointer-events: none;
-
-
 }
 
 body {
@@ -63,15 +59,11 @@ body {
 
 .menu > a:hover {
   background-color: #6c757d;
-
 }
 
 #bgcolor {
   background-color: white;
   background-position-x: right;
-
-
-
 }
 
 
@@ -85,15 +77,12 @@ body {
   display: flex;
   justify-content: center;
   pointer-events: none;
-
-
 }
 
 #centro {
   position: absolute;
   top: 40%;
   left: 45%;
-
 }
 
 #logocentro {
@@ -113,14 +102,11 @@ body {
   margin-top: 10px;
   transition: all 0.4s ease-in-out;
   box-shadow: 1px 3px 6px grey;
-
 }
 
 #centro > a:hover {
   opacity: 78%;
   box-shadow: 0px 0px 0px grey;
-
-
 }
 
 
@@ -139,7 +125,6 @@ body {
   justify-content: center;
   text-shadow: 0.5px 2px 2px grey;
   font-size: 16px;
-
 }
 
 .cartao {
@@ -154,7 +139,6 @@ body {
 }
 
 .cartao h3 {
-  
   position: relative;
   font-size: 21.5px;
   top: 15px;
@@ -170,7 +154,6 @@ body {
   position: relative;
   margin-top: 10%;
   margin-left: 35%;
-
 }
 
 .cartao h4 {
@@ -178,8 +161,6 @@ body {
   font-size: 16px;
   padding: 10px;
   text-shadow: 1px 1px 1px black;
-
-
 }
 
 
@@ -200,8 +181,6 @@ body {
 
   position: relative;
   top: 50%;
-
-
 }
 
 .cartaoGrande {
@@ -213,14 +192,10 @@ body {
   margin: 10px 20px 40px 20px;
   box-shadow: 2px 3px 3px grey;
   transition: all 0.35s ease-in-out;
-
 }
 
 .cartaoGrande:hover {
   transform: scale(1.10);
-
-
-
 }
 
 .cartaoGrande h3 {
@@ -232,7 +207,6 @@ body {
   justify-content: center;
   text-align: center;
   text-shadow: 1px 2px 2px black;
-
 }
 
 .cartaoGrande h4 {
@@ -243,7 +217,6 @@ body {
   margin: 0px;
   height: 140px;
   text-shadow: 1px 1px 1px black;
-
 }
 
 .cartaoGrande img {
@@ -253,14 +226,11 @@ body {
   width: 70%;
   -webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.6));
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
-
 }
 
 #h3 {
   font-size: 17px;
   margin-bottom: 31px;
-
-
 }
 
 
@@ -294,18 +264,14 @@ body {
 .pagamento h1 {
   font-size: 55px;
   text-shadow: .5px .5px 4px grey;
-
 }
 
 .pagamento h3 {
   display: flex;
-
-
 }
 
 .pagamento {
   text-align: center;
-
 }
 
 
@@ -323,11 +289,6 @@ body {
   font-size: 16.5px;
 }
 
-#attdrivers {
-  
-
-
-}
 
 
 #btpagamento {
@@ -338,20 +299,14 @@ body {
   border-radius: 50px;
   padding: 15px;
   font-size: 17px;;
-
-
 }
 
 #centro a {
   cursor: pointer;
-
-
 }
 
 .menu a {
   cursor: pointer;
-
-
 }
 
 #serviço span {
@@ -360,8 +315,6 @@ body {
 
 #serviço {
   width: 500px;
-
-
 }
 
 #img {
@@ -374,9 +327,6 @@ body {
 
 #span {
   width:px;
-
-
-
 }
 
 #formulario img:nth-child(1) {
@@ -384,9 +334,6 @@ body {
   left: 0px;
   margin-top: 70px;
   margin-left: 20px;
-
-
-
 }
 
 #imgpag {
@@ -419,17 +366,11 @@ body {
 #mover {
   display: flex;
   justify-content: center;
-
-
-
-
 }
 
 
 #formulario h2 {
   font-size: 50px;
-
-
 }
 
 #formulario input:nth-child(9){
@@ -440,7 +381,6 @@ body {
   position: absolute;
   right: 40px;
   width: 499px;
-
 }
 
 #final{
@@ -449,7 +389,6 @@ body {
   color:white;
   height: 200px;
   padding: 20px;
-
 }
 
 #final p {
@@ -528,22 +467,15 @@ body {
   position: absolute;
   right: -50px;
   width: 499px;
-
 }
 
 
 #formulario img:nth-child(1) {
   opacity: 0%;
-
-
-
 }
 
 .pag button {
   cursor: pointer;
-
-
-
 }
 
 
@@ -562,16 +494,11 @@ body {
 }
 
 #backgroundd {
-
   padding-top: 50px;
-
-
-
 }
 
 #centro {
   top: 20%;
-
 }
 
 #imgpag {
@@ -584,7 +511,6 @@ body {
   position: absolute;
   right: -170px;
   width: 499px;
-
 }
 
 
@@ -610,10 +536,7 @@ body {
 }
 
 #backgroundd {
-
   top: -50%;
-
-
 }
 
 #logocentro {
@@ -631,9 +554,7 @@ body {
 
 #formulario img {
   visibility: hidden;
-
 }
-
 
 }
 
@@ -649,10 +570,7 @@ body {
 }
 
 #backgroundd {
-
   transition: all 0.5s ease-in-out;
-
-
 }
 
 
@@ -696,13 +614,10 @@ body {
 #formulario h2 {
   font-size: 35px;
   padding: 5px;
-
-
 }
 
 .cartaoGrande {
   margin-top: 65px;;
-
 }
 
 #formulario img {
@@ -722,10 +637,7 @@ body {
 }
 
 #backgroundd {
-
   visibility: hidden;
-
-
 }
 
 .menu > img {
@@ -751,7 +663,6 @@ body {
 }
 
 .cartoes1  h5 {
-  
   position: relative;
   padding: 8px;
 }
